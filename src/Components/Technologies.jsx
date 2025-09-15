@@ -61,12 +61,12 @@ const Technologies = () => {
         </div>
 
         {/* Software Section */}
-        <div className="mb-20">
+        <div className="justify-center mb-20">
           <h3 className="mb-12 text-3xl font-bold text-center font-heading text-foreground">
             Software Profesional
           </h3>
           
-          <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+          <div className="grid grid-cols-3 gap-8 lg:grid-cols-3">
             {software.map((tool, index) => (
               <div
                 key={tool.name}
